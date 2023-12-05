@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Joshua",
+        "username": "Eliboo",
+        "address": [
+            {
+                "street": "San. Guillermo",
+                "barangay": "Poblacion",
+                "city": "Cebu"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Johann",
+        "username": "gabgab",
+        "address": {
+            "street": "San. Guillermo",
+            "barangay": "Poblacion",
+            "city": "Cebu"
+        }
+    },
+    {
+        "id": 3,
+        "name": "tezst",
+        "username": "hu",
+        "address": {
+            "street": "uhuh",
+            "barangay": "bhbu",
+            "city": "ij9joio"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Aiman",
+        "username": "Manman",
+        "address": {
+            "street": "test",
+            "barangay": "Poblacion",
+            "city": "Cebu"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Fria Mae",
+        "username": "priyami",
+        "address": {
+            "street": "fdsaf",
+            "barangay": "afdsfaasfsa",
+            "city": "sfafd"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Heather",
+        "username": "heather",
+        "address": {
+            "street": "safsadf",
+            "barangay": "dsafd",
+            "city": "afdadsf"
+        }
+    }
+]

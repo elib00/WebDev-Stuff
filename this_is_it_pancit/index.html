@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Bingo Game!</title>
+
+	<script src="jquery-3.7.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+
+
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div id="container">
+		<div class="page_1">
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label" style="font-size: 30px">Let's Go,
+					Bingo!</label>
+				<input type="text" class="form-control" id="get_game_code" placeholder="Game Code..."
+					style="text-align: center; height: 100%" />
+				<button type="button" class="btn btn-warning" id="verify" style="width: 50%; height: 60px">
+					Verify
+				</button>
+			</div>
+		</div>
+
+		<div class="page_2">
+			<h1 id="display_gcode"></h1>
+			<div class="outer_game_box">
+				<div id="game_grid">
+					<table id="card" class="card_border" style="text-align: center; font-family: Poppins, sans serif">
+						<thead id="card_head">
+							<tr>
+								<td id="card_header">B</td>
+								<td id="card_header">I</td>
+								<td id="card_header">N</td>
+								<td id="card_header">G</td>
+								<td id="card_header">O</td>
+							</tr>
+						</thead>
+						<tbody class="table-group-divider">
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="options_box">
+					<button type="button" class="btn btn-warning" id="get_new_card">Get New Card</button>
+					<button type="button" class="btn btn-warning" id="check_win"
+						style="background: rgb(215, 194, 86)">Am I Lucky?</button>
+					<button type="button" class="btn btn-warning" id="get_new_code">Get New
+						Code</button>
+				</div>
+			</div>
+			<button id="go_to_dashboard">Dashboard</button>
+		</div>
+	</div>
+</body>
+
+</html>
